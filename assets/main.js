@@ -9,7 +9,7 @@ async function main() {
   console.log(flags);
 
   let counter = document.querySelector("#counter");
-  let timeCounter = 5;
+  let timeCounter = 61;
   setInterval(function () {
     if (timeCounter == 0) {
       return;
