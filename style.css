@@ -1,0 +1,38 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.input-text{
+    margin-top: 3%;
+}
+.scoreboard{
+display: flex;
+justify-content: center;
+}
+.game-container{
+    display: flex;
+   
+}
+.counter {
+	text-align: center;
+	font-size: 42px;
+	line-height: 80px;
+	border: 1px solid #000;
+	height: 80px;
+	width: 350px;
+	margin-bottom: 20px;
+    margin-right: 20%;
+}
